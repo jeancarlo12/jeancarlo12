@@ -1,4 +1,4 @@
-# ¡Hola! Soy Jean Carlo 👋
+# ¡Hola! Soy Jeancarlo 👋
 
 ### Desarrollador Fullstack | IT Support Specialist | Estudiante de Ciencias de la Computación
 
@@ -9,7 +9,7 @@ Soy un apasionado de la tecnología radicado en **Pereira, Colombia**. Actualmen
 ### 🚀 Lo que estoy haciendo actualmente
 * 👨‍💻 Desarrollando un **Sistema de Gestión de Tickets** para optimizar el soporte técnico de Indesap.
 * 🎓 Profundizando en **Estructuras de Datos y Algoritmos** (actualmente dominando Heap Sort y Big-O).
-* 🌐 Manteniendo mi [Portafolio Profesional](https://www.jeancarlo.space/en).
+* 🌐 Manteniendo mi [Portafolio Profesional](https://www.jeancarlo.space/es).
 * 📱 Explorando el desarrollo móvil nativo con **Kotlin**.
 
 ### 🛠️ Tecnologías y Herramientas
@@ -39,7 +39,7 @@ Cuando no estoy en la terminal, probablemente me encuentre en la naturaleza. Soy
 
 ### 📫 Conectemos
 * **Web:** [jeancarlo.space](https://www.jeancarlo.space/en)
-* **LinkedIn:** [Su perfil aquí]
-* **Email:** [Su correo aquí]
+* **LinkedIn:** [(https://www.linkedin.com/in/jeancarlo-alzate-58478a310/)]
+* **Email:** [jeancarlo.alzate12@gmail.com]
 
 "La persistencia en la resolución de problemas es lo que define a un buen desarrollador."
