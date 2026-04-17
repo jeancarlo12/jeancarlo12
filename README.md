@@ -1,6 +1,6 @@
 # ¡Hola! Soy Jeancarlo 👋
 
-### Desarrollador Fullstack | IT Support Specialist | Estudiante de Ciencias de la Computación
+### Desarrollador Fullstack | IT Support Specialist 
 
 Soy un apasionado de la tecnología radicado en **Pereira, Colombia**. Actualmente, combino mi formación académica en Ciencias de la Computación con la gestión de infraestructura tecnológica y el desarrollo de soluciones web modernas. Mi enfoque principal es crear herramientas eficientes que optimicen procesos de negocio.
 
@@ -18,22 +18,14 @@ Soy un apasionado de la tecnología radicado en **Pereira, Colombia**. Actualmen
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apple-000000?style=for-the-badge&logo=apple&logoColor=white" />
 </p>
 
 ### 📸 Más allá del código
 Cuando no estoy en la terminal, probablemente me encuentre en la naturaleza. Soy **fotógrafo de naturaleza** especializado en macrofotografía y avistamiento de aves. 
 
 * 🌍 Puede ver mi trabajo fotográfico en: [nature.jeancarlo.space](https://nature.jeancarlo.space)
-* 🥾 Disfruto de las rutas de senderismo de larga distancia (como la reserva Barbas Bremen).
+* 🥾 Disfruto de las rutas de senderismo de larga distancia en la naturaleza.
 
----
-
-### 📊 Estadísticas de GitHub
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SU_USUARIO_AQUÍ&show_icons=true&theme=radical" alt="Estadísticas de Jean Carlo" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SU_USUARIO_AQUÍ&layout=compact&theme=radical" alt="Lenguajes más usados" />
-</p>
 
 ---
 
