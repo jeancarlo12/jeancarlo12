@@ -1,41 +1,80 @@
-<!-- Banner -->
-<h1 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Jeancarlo&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Desarrollador%20de%20software%20%C2%B7%20Colombia%20%F0%9F%87%A8%F0%9F%87%B4&descAlignY=58&descSize=18" alt="Banner"/>
-</h1>
-
+<h1 align="center">Jeancarlo</h1>
 <p align="center">
-  <a href="https://github.com/jeancarlo12/SismoAlerta-Backend">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=36BCF7&center=true&vCenter=true&width=600&lines=Construyo+sistemas+de+alerta+s%C3%ADsmica+%F0%9F%8C%8B;Apps+m%C3%B3viles+en+Swift+y+Kotlin+%F0%9F%93%B1;Backend+con+Node.js+y+Firestore+%E2%9A%99%EF%B8%8F;Visi%C3%B3n+computacional+aplicada+a+sismolog%C3%ADa+%F0%9F%91%81%EF%B8%8F" alt="Typing SVG" />
-  </a>
+  Desarrollador de software · Apps móviles nativas y sistemas backend en tiempo real<br/>
+  Colombia
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jeancarlo12&label=Visitas&color=0e75b6&style=flat" alt="Visitas"/>
-  <img src="https://img.shields.io/github/followers/jeancarlo12?style=flat&logo=github&label=Seguidores" alt="Seguidores"/>
-  <a href="https://github.com/jeancarlo12?tab=repositories"><img src="https://img.shields.io/badge/Repos-ver%20todos-2ea44f?style=flat&logo=github" alt="Repos"/></a>
+  <a href="https://linkedin.com/in/TU-USUARIO"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:TU-CORREO"><img src="https://img.shields.io/badge/Email-333333?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/jeancarlo12/Portafolio-Jeancarlo"><img src="https://img.shields.io/badge/Portafolio-333333?style=flat-square&logo=googlechrome&logoColor=white" alt="Portafolio"/></a>
 </p>
 
 ---
 
-## 👨💻 Sobre mí
+## Perfil
 
-- 🌎 Desarrollador desde Colombia, enfocado en **apps móviles nativas** y **sistemas backend en tiempo real**.
-- 🌋 Actualmente construyo **SismoAlerta**: un sistema de alertas sísmicas para Colombia que detecta eventos con **visión computacional sobre trazas de ondas** de estaciones sismológicas.
-- 🎯 Mi foco ahora: **subir la precisión** del detector antes de habilitar notificaciones push públicas.
-- 📊 Valido cada alerta contra el **catálogo oficial del SGC** (backtesting con verdaderos positivos y falsos negativos).
-- 🌱 Aprendiendo: Arquitectura de software y despliegues en la nube.
-- 📫 Contacto: jeancarlo12@ejemplo.com <!-- Recuerda reemplazar por tu correo real -->
+Desarrollo aplicaciones móviles en **Swift** y **Kotlin** y servicios backend en **Node.js**. Mi proyecto principal es **SismoAlerta**, un sistema de alerta sísmica para Colombia que detecta eventos mediante **visión computacional sobre trazas de ondas** de estaciones sismológicas y valida sus resultados contra el catálogo oficial del Servicio Geológico Colombiano (SGC).
+
+Actualmente profundizo en arquitectura de software y despliegues en la nube.
 
 ---
 
-## ⭐ Proyecto destacado: SismoAlerta
+## Proyecto principal: SismoAlerta
 
-> Sistema de alerta sísmica para Colombia, con app iOS, backend y un worker de detección en producción.
+Sistema de alerta sísmica para Colombia: app iOS, backend y worker de detección en producción.
+
+**Estado:** el detector opera en *Shadow Mode* (genera y registra alertas sin notificar al público). El objetivo actual es aumentar la precisión antes de habilitar notificaciones push.
 
 ```mermaid
 flowchart LR
-    A[📡 Trazas de estaciones] --> B[🧠 Detección por visión computacional]
-    B --> C[⚙️ Worker en Render<br/>Shadow Mode]
-    C --> D[(🔥 Firestore<br/>preliminary_alerts_history)]
-    D --> E[📊 Backtest vs catálogo SGC]
-    D -.-> F[📱 App iOS<br/>Push públicos: próximamente]
+    A[Trazas de estaciones] --> B[Detección por<br/>visión computacional]
+    B --> C[Worker en Render<br/>Shadow Mode]
+    C --> D[(Firestore<br/>preliminary_alerts_history)]
+    D --> E[Backtest vs<br/>catálogo SGC]
+    D -.-> F[App iOS<br/>push públicos: próximamente]
+```
+
+**Enfoque de ingeniería**
+- Validación cuantitativa: cada alerta se compara con el catálogo SGC, separando verdaderos positivos y falsos negativos para medir el detector con datos y no con impresiones.
+- Despliegue en modo sombra para evaluar el sistema en producción sin exponer a usuarios a falsas alarmas.
+- Historial persistente de alertas preliminares para auditoría y análisis posterior.
+
+**Resultados del backtest** _(completa con tus cifras reales)_
+
+| Métrica | Valor |
+|---|---|
+| Precisión | _XX %_ |
+| Recall | _XX %_ |
+| Periodo evaluado | _fecha – fecha_ |
+
+**Repositorios:** [Backend](https://github.com/jeancarlo12/SismoAlerta-Backend) · [App iOS](https://github.com/jeancarlo12/SismoAlerta)
+
+---
+
+## Otros proyectos
+
+| Proyecto | Descripción | Tecnologías |
+|---|---|---|
+| [LUKA](https://github.com/jeancarlo12/LUKA) | _Una línea: qué problema resuelve_ | Kotlin, Android |
+| [Be-Master](https://github.com/jeancarlo12/Be-Master) | _Una línea: qué hace_ | _Stack_ |
+| [Portafolio-Jeancarlo](https://github.com/jeancarlo12/Portafolio-Jeancarlo) | Portafolio personal | _Stack web_ |
+
+---
+
+## Stack
+
+| Área | Tecnologías |
+|---|---|
+| Móvil | Swift (iOS) · Kotlin (Android) |
+| Backend | Node.js · Firestore · Render |
+| Calidad de datos | Backtesting propio, análisis con CSV |
+| Herramientas | Git · GitHub · Integración de APIs |
+
+<p>
+  <img src="https://skillicons.dev/icons?i=swift,kotlin,nodejs,firebase,git,github&theme=dark" alt="Stack"/>
+</p>
+
+---
+
+<sub>Abierto a colaboración en proyectos de alerta temprana, apps móviles y sistemas en tiempo real.</sub>
