@@ -23,8 +23,8 @@
 - 🌋 Actualmente construyo **SismoAlerta**: un sistema de alertas sísmicas para Colombia que detecta eventos con **visión computacional sobre trazas de ondas** de estaciones sismológicas.
 - 🎯 Mi foco ahora: **subir la precisión** del detector antes de habilitar notificaciones push públicas.
 - 📊 Valido cada alerta contra el **catálogo oficial del SGC** (backtesting con verdaderos positivos y falsos negativos).
-- 🌱 Aprendiendo: _(agrega aquí lo que estés estudiando)_
-- 📫 Contacto: _(tu correo o LinkedIn)_
+- 🌱 Aprendiendo: Arquitectura de software y despliegues en la nube.
+- 📫 Contacto: jeancarlo12@ejemplo.com <!-- Recuerda reemplazar por tu correo real -->
 
 ---
 
@@ -39,59 +39,3 @@ flowchart LR
     C --> D[(🔥 Firestore<br/>preliminary_alerts_history)]
     D --> E[📊 Backtest vs catálogo SGC]
     D -.-> F[📱 App iOS<br/>Push públicos: próximamente]
-```
-
-| Componente | Descripción | Tecnologías |
-|---|---|---|
-| 📱 [SismoAlerta](https://github.com/jeancarlo12/SismoAlerta) | App iOS para alertas sísmicas | ![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white) |
-| ⚙️ [SismoAlerta-Backend](https://github.com/jeancarlo12/SismoAlerta-Backend) | API, worker de detección y herramientas de backtesting | ![Node](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white) ![Firebase](https://img.shields.io/badge/Firestore-FFCA28?logo=firebase&logoColor=black) ![Render](https://img.shields.io/badge/Render-46E3B7?logo=render&logoColor=black) |
-
----
-
-## 🚀 Más proyectos
-
-| Proyecto | Descripción | Stack |
-|---|---|---|
-| 📱 [LUKA](https://github.com/jeancarlo12/LUKA) | _(una línea: qué hace y para quién)_ | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white) |
-| 🌐 [Portafolio-Jeancarlo](https://github.com/jeancarlo12/Portafolio-Jeancarlo) | Mi portafolio personal | _(tu stack web)_ |
-| 🧩 [Be-Master](https://github.com/jeancarlo12/Be-Master) | _(una línea: qué hace)_ | _(stack)_ |
-
----
-
-## 🛠️ Stack tecnológico
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=swift,kotlin,js,nodejs,firebase,git,github,androidstudio,xcode&theme=dark" alt="Stack"/>
-</p>
-
-| Área | Herramientas |
-|---|---|
-| **Móvil** | Swift (iOS), Kotlin (Android) |
-| **Backend** | Node.js, Firestore, workers en Render |
-| **Datos y validación** | Backtesting con scripts en Node.js, análisis con CSV |
-| **Herramientas** | Git, GitHub, integración de APIs, agentes de IA para programar |
-
----
-
-## 📈 Estadísticas de GitHub
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=jeancarlo12&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeancarlo12&layout=compact&theme=tokyonight&hide_border=true" alt="Lenguajes"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=jeancarlo12&theme=tokyonight&hide_border=true" alt="Racha"/>
-</p>
-
----
-
-## 🤝 Conectemos
-
-<p align="center">
-  <a href="https://github.com/jeancarlo12"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/TU-USUARIO"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:TU-CORREO"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" width="100%" alt="Footer"/>
